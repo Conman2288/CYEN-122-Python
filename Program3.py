@@ -42,7 +42,6 @@ class Employee(metaclass = abc.ABCMeta):
         value = value.capitalize()
         self._lastname = value
         
-
     @property
     def pay(self):
         return self._pay
